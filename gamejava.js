@@ -62,7 +62,7 @@ function swing(event){
 			lightsaber.classList.remove("swing_animate");
 		},300);
 		if (e_health.value <= 0 && !game_over){
-			alert("You win!");
+			alert("Your next clue can be found with Seel's favourite food!");
 			game_over = true;
 		}
 		
